@@ -12,9 +12,11 @@ http://flyingcards.fastbreakfast.top/
 
 ## Preview
 
-![](http://tulu.fastbreakfast.top/flying_cards.gif)
+虽然原理很简单，但是我觉得这个效果很有趣。
 
-> 虽然原理很简单，但是我觉得这个效果很有趣。
+**可以看一下效果动图，图太大了，就不放到仓库里了**
+
+[效果动图](http://tulu.fastbreakfast.top/flying_cards.gif)
 
 ## Usage
 
