@@ -147,6 +147,7 @@ class Controller extends React.Component {
     this.update_back_number = this.update_back_number.bind(this);
     this.try_to_connect = this.try_to_connect.bind(this);
     this.state = {
+      domin: "fastbreakfast.top:4000",
       ws: null,
       back_number: new Set(),
       name: String(parseInt(Math.random()*100000000)),
@@ -156,8 +157,7 @@ class Controller extends React.Component {
   }
 
   try_to_connect(channel){
-    let path = "ws://ws.fastbreakfast.top/ws/chat/"
-    path = path + channel + "/"
+    let path = "ws://" + this.state.domin + "/ws/chat/" + channel + "/"
     try {this.state.ws.close();} catch (error) {}
     let ws = new WebSocket(path)
 

@@ -31,35 +31,21 @@ http://flyingcards.fastbreakfast.top/
 
 **首先，你需要安装一个redis**
 
-**如果你不想整 react：**
 
 ```
 git clone https://github.com/GavBaros/react-tinder-cards.git
-cd FlyingCards/mysite
-
-mkvirtualenv flyingcards
-pip install -r requirements.txt
-python manage.py runserver
-
-# 直接打开 FlyingCards/react-cards/build/index.html
-# 或者部署 FlyingCards/react-cards/build/index.html
-```
-
-**如果你想整 react：**
-
-```
-git clone https://github.com/GavBaros/react-tinder-cards.git
-cd FlyingCards/react-cards
+cd Flying-Cards/react-cards
 npm install
 npm start
 
 # 再开一个终端，或者把npm start放到后台
 
-cd FlyingCards/mysite
+cd Flying-Cards/mysite
 mkvirtualenv flyingcards
 pip install -r requirements.txt
 python3 manage.py runserver
 
+# 修改 Flying-Cards/react-cards/src/index.js 里 150行 domin 为自己的地址
 # 直接打开 http://localhost:3006/
 # 或者部署
 ```
