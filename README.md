@@ -10,11 +10,17 @@
 
 http://flyingcards.fastbreakfast.top/
 
+在两个页面(设备)中打开这个网站。
+在输入框里输入对应的号码，点击connect。也可以点random。
+如果一个页面被清空了，就可以开始滑动啦。
+
 ## Preview
 
 虽然原理很简单，但是我觉得这个效果很有趣。
 
-**可以看一下效果动图，图太大了，就不放到仓库里了**
+![]('small_flying_cards.gif')
+
+**完整的图太大了，就不放到仓库里了**
 
 [效果动图](http://tulu.fastbreakfast.top/flying_cards.gif)
 
