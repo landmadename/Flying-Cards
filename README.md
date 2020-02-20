@@ -18,7 +18,7 @@ http://flyingcards.fastbreakfast.top/
 
 虽然原理很简单，但是我觉得这个效果很有趣。
 
-![]('small_flying_cards.gif')
+![](small_flying_cards.gif)
 
 **完整的图太大了，就不放到仓库里了**
 
